@@ -28,3 +28,5 @@ jobs:
           docker push ${{ secrets.CR_LOGIN_SERVER }}/${{ env.REPOSITORY_NAME }}:pythonflow
       - name: unittest
         note: yet to update
+      - name: codecoverage
+        note: yet to update
